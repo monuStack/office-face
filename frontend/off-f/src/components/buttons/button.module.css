@@ -1,0 +1,31 @@
+.btn button {
+    width: 120px;
+    height: 46px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 50px;
+    border: 1px solid rgb(207, 207, 207);
+    font-weight: bolder;
+}
+
+.signUp {
+    background-color:  #0d45ff;
+    color: white;
+    border: none;
+}
+
+.Join{
+    height: 100% !important;
+    width: 100px !important;
+    position: absolute;
+    border-radius: 50px;
+    right: 1px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgb(51, 55, 253);
+    border: 1px solid black;
+    color: white;
+}

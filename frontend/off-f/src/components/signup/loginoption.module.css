@@ -1,0 +1,18 @@
+.optionContainer{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.optionContainer button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 8px;
+    font-size: 25px;
+}

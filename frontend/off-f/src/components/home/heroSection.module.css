@@ -1,0 +1,43 @@
+.mainContainer{
+    width: 80%;
+    height: 100vh;
+    margin: 50px auto;
+}
+
+.itemsContainer{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageContainer {
+  width: 50%;
+  height: auto;
+}
+
+.imageContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.textContainer{
+    width: 50%;
+}
+
+
+.textContainer h1{
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+.textContainer p{
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.btnContainer{
+    margin: 30px auto;
+    display: flex;
+    gap: 20px;
+}

@@ -1,0 +1,72 @@
+.mainContainer {
+    width: 100vw;
+    height: 100vh;
+    background:
+        radial-gradient(ellipse 75% 65% at 50% 105%,
+            #9585ff 0%,
+            #5369ed 40%,
+            transparent 100%),
+        radial-gradient(ellipse 60% 55% at 100% 100%,
+            #123f9e 0%,
+            transparent 75%),
+        linear-gradient(180deg,
+            #02051f 0%,
+            #071747 55%,
+            #102c75 100%);
+
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.itemsContainer{
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    padding-bottom: 50px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20PX;
+    border-radius: 20px;
+}
+.headingContainer{
+    text-align: center;
+    line-height: 1.3;
+}
+.formContainer{
+   
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.from{
+
+     margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+.fromContainer input{
+    padding: 20px;
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 12px;
+    border: 1px solid rgb(207, 207, 207);
+}
+
+.from button{
+    width: 100%;
+    height: 30px;
+    background: #0d45ff;
+    color: white;
+    border-radius: 12px;
+    border: 1px solid rgb(207, 207, 207);
+    font-size: 15px;
+    margin-top: 15px;
+}

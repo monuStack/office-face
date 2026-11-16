@@ -1,0 +1,65 @@
+.footerContainer{
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(
+    120deg,
+    #071A46 0%,
+    #0B2D70 40%,
+    #123F91 100%
+  );
+  color: white;
+  padding: 80px;
+}
+
+.leftConatiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.logoConatiner img {
+    height: 60px;
+    width: 200px;
+
+}
+.contactConatiner{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.SocialContainer{
+    display: flex;
+    gap: 10px;
+    background-color: none;
+}
+
+.rightConatiner{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footerColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    
+}
+.footerColumn h3{
+    font-size: 20px;
+    
+}
+.footerColumn a{
+    text-decoration: none;
+    color: white;
+    
+}
+.footerColumn a:hover{
+    text-decoration: underline;
+
+    
+}
