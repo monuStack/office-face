@@ -1,10 +1,13 @@
 import LoginOption from "./LoginOption";
 import styles from "./signup.module.css";
+import Navbar from "../navbar/Navbar";
 
 
 export default function Signup() {
   return (
+    
     <div className={styles.mainContainer}>
+      {/* <Navbar/> */}
       <div className={styles.itemsContainer}>
         <div className={styles.headingContainer}>
           <h1>Log in</h1>

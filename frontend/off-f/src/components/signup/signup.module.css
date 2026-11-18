@@ -1,6 +1,6 @@
 .mainContainer {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background:
         radial-gradient(ellipse 75% 65% at 50% 105%,
             #9585ff 0%,
@@ -16,14 +16,16 @@
 
     background-attachment: fixed;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
-.itemsContainer{
+
+.itemsContainer {
     width: 400px;
-    height: 500px;
+    height: 550px;
     padding: 20px;
-    padding-bottom: 50px;
     background-color: #fff;
     display: flex;
     align-items: center;
@@ -31,27 +33,27 @@
     gap: 20PX;
     border-radius: 20px;
 }
-.headingContainer{
+
+.headingContainer {
     text-align: center;
     line-height: 1.3;
 }
-.formContainer{
-   
+
+.formContainer {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.from{
-
-     margin-top: 30px;
+.from {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 5px;
 }
-.fromContainer input{
+
+.fromContainer input {
     padding: 20px;
     width: 300px;
     height: 40px;
@@ -60,7 +62,7 @@
     border: 1px solid rgb(207, 207, 207);
 }
 
-.from button{
+.from button {
     width: 100%;
     height: 30px;
     background: #0d45ff;

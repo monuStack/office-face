@@ -1,12 +1,18 @@
 import styles from "./navbar.module.css";
 import Button from "../buttons/Button";
 import VideoCallIcon from "@mui/icons-material/VideoCall";
+import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
+
 export default function Navbar() {
+  const navigate = useNavigate()
+
   return (
     <>
       <nav className={styles.navContainer}>
         <div className={styles.logoContainer}>
-          <img src="/images/logo.png" alt="" />
+          <Link to="/"><img src="/images/logo.png" alt="" /></Link>
+          
         </div>
         <div className={styles.searchBarContainer}>
           {/* search container */}
@@ -21,8 +27,8 @@ export default function Navbar() {
           />
         </div>
         <div className={styles.buttonContiner}>
-          <Button innerText={"Log in"} type={"logIn"} />
-          <Button innerText={"Sign Up Free"} type={"signUp"} />
+          <Button innerText={"Log in"} type={"logIn"} onClick={() => navigate("/login")} />
+          <Button innerText={"Sign Up Free"} type={"signUp"}  onClick={() => navigate("/signup")} />
         </div>
       </nav>
     </>

@@ -1,6 +1,7 @@
 import LoginOption from "./LoginOption";
 import styles from "./signup.module.css";
 import { FaGoogle, FaWindows, FaApple, FaFacebook } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export default function Signup() {
   return (
@@ -19,9 +20,9 @@ export default function Signup() {
         </div>
         <p>or sign up with</p>
         <LoginOption/>
-        <h4>
-          Already have an account? <a href="">Log In</a>
-        </h4>
+        <div><h4>
+          Already have an account? <Link to="/login">Log In</Link>
+        </h4></div>
       </div>
     </div>
   );
