@@ -4,8 +4,11 @@ import Navbar from "../navbar/Navbar";
 
 
 export default function Signup() {
+
+
+
+
   return (
-    
     <div className={styles.mainContainer}>
       {/* <Navbar/> */}
       <div className={styles.itemsContainer}>
@@ -13,16 +16,17 @@ export default function Signup() {
           <h1>Log in</h1>
         </div>
         <div className={styles.fromContainer}>
-          <form action="/" method="get" className={styles.from}>
+          <form action="/user/signup" method="post" className={styles.from}>
             <label htmlFor="email">Enter your email address</label>
-            <input type="email" placeholder="Enter email, Zoom Mail or Phone" id="email" />
-            <button>Next</button>
+            <input type="email" placeholder="Enter email, Zoom Mail or Phone" id="email" name="email" required />
+            <input type="password" placeholder="Enter Password" id="password" name="password" required/>
+            <button type="submit">Next</button>
           </form>
         </div>
         <p>or sign in with</p>
         <LoginOption/>
         <h4>
-          <a href="">Forgot email?</a>
+          <a href="">Forgot password?</a>
         </h4>
         <div>
             <a href="">Help</a>

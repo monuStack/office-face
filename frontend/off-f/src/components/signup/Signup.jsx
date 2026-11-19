@@ -12,7 +12,7 @@ export default function Signup() {
           <p>No credit card required</p>
         </div>
         <div className={styles.fromContainer}>
-          <form action="/" method="get" className={styles.from}>
+          <form action="http://localhost:8000/api/auth/signup" method="get" className={styles.from}>
             <label htmlFor="email">Enter your email address</label>
             <input type="email" placeholder="Email address" id="email" />
             <button>Continue</button>
