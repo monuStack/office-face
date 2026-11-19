@@ -11,6 +11,10 @@
     font-weight: bolder;
 }
 
+.logIn {
+    border: 1px solid #0d45ff !important;
+}
+
 .signUp {
     background-color:  #0d45ff;
     color: white;
@@ -28,4 +32,8 @@
     background-color: rgb(51, 55, 253);
     border: 1px solid black;
     color: white;
+}
+.newMeeting{
+    color: green;
+    border: 1px solid green !important;
 }

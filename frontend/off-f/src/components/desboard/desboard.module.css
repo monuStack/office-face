@@ -1,0 +1,51 @@
+.mainContainer {
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+}
+
+/* .sidebar{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+} */
+.DayContainer {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.DateContainer {
+    margin: 30px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.meetContainer {
+    flex: 1;
+    min-height: 0;
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 0;
+}
+
+.imageContainer img {
+    width: 800px;
+    max-width: 100%;
+    height: auto;
+    max-height: 350px;
+    object-fit: contain;
+}

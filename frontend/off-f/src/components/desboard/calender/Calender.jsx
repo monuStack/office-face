@@ -24,13 +24,15 @@ function Calender() {
   };
 
   const weekDates = getWeekDates();
+
+
   return (
-    <div className="calendar">
-      <button className="calendar-arrow" onClick={() => changeWeek(-1)}>
+    <div className={styles.calendar}>
+      <button className={styles.calendararrow} onClick={() => changeWeek(-1)}>
         ‹
       </button>
 
-      <div className="calendar-days">
+      <div className={styles.calendardays}>
         {weekDates.map((date, index) => (
           <div
             key={index}
@@ -54,7 +56,7 @@ function Calender() {
         ))}
       </div>
 
-      <button className="calendar-next" onClick={() => changeWeek(1)}>
+      <button className={styles.calendarnext} onClick={() => changeWeek(1)}>
         ›
       </button>
     </div>
